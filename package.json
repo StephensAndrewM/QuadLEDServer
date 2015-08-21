@@ -1,0 +1,19 @@
+{
+  "name": "QuadLEDServer",
+  "version": "0.1.0",
+  "description": "Quad LED Web Interface and Desktop Server",
+  "main": "leds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewmediaprod/QuadLEDServer.git"
+  },
+  "author": "Andrew Stephens",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/andrewmediaprod/QuadLEDServer/issues"
+  },
+  "homepage": "https://github.com/andrewmediaprod/QuadLEDServer"
+}
