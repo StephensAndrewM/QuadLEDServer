@@ -1,0 +1,61 @@
+html, body {
+	height:100%;
+	width:100%;
+}
+
+html {
+	background: #000000;
+}
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	background: #101010;
+	color:white;
+}
+
+.label {
+	color: #FFB412;
+	letter-spacing: 4px;
+	font-size:12px;
+	text-transform: uppercase;
+	margin: 10px 0 5px;
+	text-align: center;
+	display: block;
+}
+
+.preset {
+	background-color: #0099CC;
+    color: white;
+    text-align: center;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px 5%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+.column2 {
+	width:48%;
+	margin: 0 1%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	float: left;
+}
+
+@media only screen and (min-width: 768px;) {
+
+	html {
+		height:320px;
+	}
+
+	body {
+		margin: 0 auto;
+		width:480px;
+	}
+
+}

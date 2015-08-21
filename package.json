@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/andrewmediaprod/QuadLEDServer/issues"
   },
-  "homepage": "https://github.com/andrewmediaprod/QuadLEDServer"
+  "homepage": "https://github.com/andrewmediaprod/QuadLEDServer",
+  "dependencies": {
+    "less-middleware": "^2.0.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {}
 }
