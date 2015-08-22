@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/andrewmediaprod/QuadLEDServer",
   "dependencies": {
-    "less-middleware": "^2.0.1",
-    "express": "^4.13.3"
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "less-middleware": "^2.0.1"
   },
   "devDependencies": {}
 }
