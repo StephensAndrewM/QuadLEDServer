@@ -2,7 +2,7 @@ var http = require('http'),
 	lessMiddleware = require('less-middleware');
 	express = require('express');
 
-const PORT=8080;
+const PORT = 8080;
 
 var express = require('express');
 var app = express();

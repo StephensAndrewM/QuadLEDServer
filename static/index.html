@@ -8,27 +8,30 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
 
 	<div id="main">
 
 		<div class="column2">
-			<div class="label">Presets</div>
-			<button class="preset">T2 Big Screen</button>
+			<div class="label">Volume</div>
+			<button class="action" data-action="vol-up"><i class="fa fa-volume-up"></i></button>
+			<button class="action" data-action="vol-down"><i class="fa fa-volume-down"></i></button>
+			<button class="action" data-action="vol-mute"><i class="fa fa-volume-off"></i></button>
+
+			<div class="label">Music</div>
+			<button class="action" data-action="music-play"><i class="fa fa-play"></i></button>
+			<button class="action" data-action="music-pause"><i class="fa fa-pause"></i></button>
+			<button class="action" data-action="music-skip"><i class="fa fa-forward"></i></button>
 		</div>
 
 		<div class="column2">
-			<div class="label">Volume</div>
-			<button class="control">Up</button>
-			<button class="control">Down</button>
-			<button class="control">Mute</button>
-
-			<div class="label">Music</div>
-			<button class="control">Play</button>
-			<button class="control">Pause</button>
-			<button class="control">Next</button>
+			<div class="label">Presets</div>
+			<button class="preset" data-preset="bigscreen">T2 Big Screen</button>
 		</div>
+
+
 
 	</div>
 	

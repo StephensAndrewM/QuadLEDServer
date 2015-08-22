@@ -9,12 +9,12 @@ html {
 
 body {
 	font-family: "Roboto", Arial, sans-serif;
-	background: #101010;
+	background: #292929;
 	color:white;
 }
 
 .label {
-	color: #FFB412;
+	color: #c1c1c1;
 	letter-spacing: 4px;
 	font-size:12px;
 	text-transform: uppercase;
@@ -23,31 +23,57 @@ body {
 	display: block;
 }
 
-.preset {
-	background-color: #0099CC;
+.preset, .action {
     color: white;
     text-align: center;
-    width: 90%;
     border: none;
     outline: none;
-    border-radius: 2px;
-    padding: 10px;
-    margin: 10px 5%;
+    border-radius: 3px;
     box-sizing: border-box;
     text-transform: uppercase;
     font-size: 14px;
-    display: block;
+}
+
+.preset {
+	display: block;
+	background-color: #0099CC;
+	width: 90%;
+	margin: 10px 5%;
+	padding: 10px;
+	box-shadow: 0 4px 0 #003F54, 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.action {
+    display: inline-block;
+    padding:15px 10px;
+    background-color: #1fa67a;
+    margin: 5px 5px;
+    width:64px;
+    box-shadow: 0 4px 0 #00563A, 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.action i {
+	font-size: 1.7em;
 }
 
 .column2 {
-	width:48%;
-	margin: 0 1%;
+	width:98%;
+	max-width:400px;
+	margin: 0 auto;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	float: left;
+	text-align: center;
 }
 
-@media only screen and (min-width: 768px;) {
+@media only screen and (min-width: 480px) {
+	.column2 {
+		width:48%;
+		margin:0 1%;
+		float:left;
+	}
+}
+
+@media only screen and (min-width: 768px) {
 
 	html {
 		height:320px;
